@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     overflow: hidden;
     position: relative;
 }
@@ -23,4 +24,28 @@
     position: absolute;
     transform: translateY(-13.5rem);
     width: 100vw;
+}
+
+.banner__titulo {
+    color: var(--azul-escuro);
+    font-size: 2.2em;
+    line-height: 1.2em;
+    width: 80%;
+}
+
+.banner__texto {
+    color: var(--azul-cinza);
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 1em 1em;
+}
+
+.banner__botao {
+    background-image: var(--degrade);
+    border-radius: 50px;
+    color: var(--branco);
+    font-size: 16px;
+    margin-top: 0.5em;
+    padding: 1em 2em;
+    text-decoration: none;
 }

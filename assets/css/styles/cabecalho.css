@@ -37,6 +37,7 @@
     width: 75%;
     background-color: var(--branco);
     border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px var(--azul-escuro);
 }
 
 .cabecalho__botao:checked ~ .lista-menu {
