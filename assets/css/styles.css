@@ -1,0 +1,19 @@
+@import url('styles/cabecalho.css');
+
+:root {
+    --azul-claro: hsl(192, 70%, 51%);
+    --azul-cinza: hsl(233, 8%, 62%);
+    --azul-cinza-claro: hsl(220, 16%, 96%);
+    --azul-escuro: hsl(233, 26%, 24%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-claro: hsl(0, 0%, 98%);
+    --verde-limao: hsl(136, 65%, 51%);
+    --fonte: "Public Sans";
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 18px;
+}
