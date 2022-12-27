@@ -1,4 +1,5 @@
 @import url('styles/cabecalho.css');
+@import url('styles/banner.css');
 
 :root {
     --azul-claro: hsl(192, 70%, 51%);

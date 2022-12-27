@@ -1,0 +1,26 @@
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner__imagens {
+    background-image: url('../../img/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-y: -2.1rem;
+    background-size: cover;
+    height: 22rem;
+    width: 100vw;
+}
+
+.banner__imagem {
+    display: flex;
+    height: 40rem;
+    object-fit:contain;
+    position: absolute;
+    transform: translateY(-13.5rem);
+    width: 100vw;
+}
