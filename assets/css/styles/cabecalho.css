@@ -54,5 +54,40 @@
     color: var(--azul-escuro);
 }
 
+.lista-opcoes {
+    display: none;
+}
+
+.botao__request {
+    display: none;
+}
 
 
+@media screen and (min-width: 1440px) {
+    .cabecalho__container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .botao__request {
+        display: block;
+    }
+
+    .lista-opcoes {
+        display: flex;
+    }
+
+    .lista-opcoes__item {
+        padding: 0 1em;
+    }
+
+    .lista-opcoes__link {
+        text-decoration: none;
+        color: var(--azul-escuro);
+    }
+
+    .cabecalho__rotulo {
+        display: none;
+    }
+
+}
