@@ -40,7 +40,7 @@
     padding: 1em 1em;
 }
 
-.banner__botao {
+.botao__request {
     background-image: var(--degrade);
     border-radius: 50px;
     color: var(--branco);

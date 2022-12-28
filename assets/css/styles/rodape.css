@@ -35,16 +35,6 @@
     color: var(--azul-cinza-claro);
 }
 
-.rodape__botao {
-    background-image: var(--degrade);
-    border-radius: 50px;
-    color: var(--branco);
-    font-size: 16px;
-    margin-top: 1em;
-    padding: 1em 2em;
-    text-decoration: none;
-}
-
 .rodape__copyright {
     padding-top: 2em;
     color: var(--azul-cinza);
