@@ -1,0 +1,48 @@
+.artigos {
+    background-color: var(--cinza-claro);
+    padding: 4em 0;
+    text-align: center;
+}
+
+.artigos__titulo-principal {
+    font-size: 2em;
+    color: var(--azul-escuro);
+    line-height: 1.1em;
+}
+
+.artigos__lista {
+    padding: 2em 0;
+}
+
+.artigos__lista-itens {
+    margin: 2em 1em;
+    background-color: var(--branco);
+}
+
+.artigos__lista-itens--imagem {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.artigos__lista-itens--textos {
+    padding: 1em 1em 2em 1em;
+    text-align: left;
+}
+
+.artigos__lista-itens--autor {
+    font-size: 12px;
+    margin-bottom: 1em;
+    color: var(--azul-cinza);
+}
+
+.artigos__lista-itens--titulo {
+    color: var(--azul-escuro);
+    margin-bottom: 1em;
+}
+
+.artigos__lista-itens--texto {
+    color: var(--azul-cinza);
+    margin-bottom: 1em;
+    font-size: 14px;
+    width: 95%;
+}

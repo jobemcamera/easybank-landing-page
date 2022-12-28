@@ -1,6 +1,7 @@
 @import url('styles/cabecalho.css');
 @import url('styles/banner.css');
 @import url('styles/info.css');
+@import url('styles/artigos.css');
 
 :root {
     --azul-claro: hsl(192, 70%, 51%);
