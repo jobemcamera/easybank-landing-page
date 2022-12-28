@@ -2,6 +2,7 @@
 @import url('styles/banner.css');
 @import url('styles/info.css');
 @import url('styles/artigos.css');
+@import url('styles/rodape.css');
 
 :root {
     --azul-claro: hsl(192, 70%, 51%);
