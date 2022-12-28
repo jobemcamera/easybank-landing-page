@@ -1,12 +1,11 @@
 .info {
     background-color: var(--azul-cinza-claro);
     margin-top: 3em;
-    padding: 1em;
+    padding: 5em;
     text-align: center;
 }
 
 .info__titulo {
-    padding-top: 3em;
     font-size: 2em;
     color: var(--azul-escuro);
     line-height: 1.1em;
@@ -20,7 +19,7 @@
 }
 
 .cards {
-    padding: 1em 0;
+    padding-top: 1em;
 }
 
 .cards__lista-card {
@@ -37,4 +36,29 @@
     font-size: 16px;
     line-height: 1.5em;
     padding: 1em 0.2em;
+}
+
+@media screen and (min-width: 1440px) {
+    .info__container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .info__info {
+        text-align: left;
+    }
+
+    .cards__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cards__lista-card {
+        text-align: left;
+    }
+
+    .cards__lista-card--texto {
+        width: 80%;
+    }
 }
