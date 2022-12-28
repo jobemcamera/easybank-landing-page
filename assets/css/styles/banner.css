@@ -26,6 +26,14 @@
     width: 100vw;
 }
 
+.banner__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 .banner__titulo {
     color: var(--azul-escuro);
     font-size: 2.2em;
@@ -40,7 +48,7 @@
     padding: 1em 1em;
 }
 
-.botao__request {
+.banner__botao-request {
     background-image: var(--degrade);
     border-radius: 50px;
     color: var(--branco);
@@ -48,4 +56,10 @@
     margin-top: 0.5em;
     padding: 1em 2em;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        display: flex;
+    }
 }

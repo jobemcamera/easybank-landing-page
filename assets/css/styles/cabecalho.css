@@ -58,7 +58,7 @@
     display: none;
 }
 
-.botao__request {
+.cabecalho__botao-request {
     display: none;
 }
 
@@ -69,8 +69,15 @@
         justify-content: space-evenly;
     }
 
-    .botao__request {
+    .cabecalho__botao-request {
         display: block;
+        background-image: var(--degrade);
+        border-radius: 50px;
+        color: var(--branco);
+        font-size: 16px;
+        margin-top: 0.5em;
+        padding: 1em 2em;
+        text-decoration: none;
     }
 
     .lista-opcoes {
