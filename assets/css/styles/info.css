@@ -1,0 +1,40 @@
+.info {
+    background-color: var(--azul-cinza-claro);
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+.info__titulo {
+    padding-top: 3em;
+    font-size: 2em;
+    color: var(--azul-escuro);
+    line-height: 1.1em;
+}
+
+.info__texto {
+    color: var(--azul-cinza);
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 1em 0.5em;
+}
+
+.cards {
+    padding: 1em 0;
+}
+
+.cards__lista-card {
+    padding: 1em 0;
+}
+
+.cards__lista-card--titulo {
+    padding: 1em 0;
+    color: var(--azul-escuro);
+}
+
+.cards__lista-card--texto {
+    color: var(--azul-cinza);
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 1em 0.2em;
+}
