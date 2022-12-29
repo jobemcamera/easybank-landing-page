@@ -46,3 +46,47 @@
     font-size: 14px;
     width: 95%;
 }
+
+@media screen and (min-width: 1440px) {
+    .artigos {
+        padding: 5em;
+    }
+    .artigos__container {
+        width: 86%;
+        margin: 0 auto;
+    }
+
+    .artigos__titulo-principal {
+        text-align: left;
+    }
+
+    .artigos__lista {
+        display: flex;
+        padding-bottom: 1em;
+    }
+
+    .artigos__lista-itens {
+        margin: 2em 2em 2em 0;
+    }
+
+    .artigos__lista-itens--imagem {
+        object-fit: cover;
+        height: 160px;
+    }
+
+    .artigos__lista-itens--textos {
+        padding: 1em 1em;
+    }
+
+    .artigos__lista-itens--autor {
+        font-size: 10px;
+    }
+
+    .artigos__lista-itens--texto {
+        margin-bottom: 0;
+        width: 100%;
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+}
