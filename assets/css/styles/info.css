@@ -37,7 +37,7 @@
     padding: 1em 0.2em;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
     .info {
         padding: 5em 0 5em 0;
     }

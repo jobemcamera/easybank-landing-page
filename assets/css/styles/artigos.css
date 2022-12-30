@@ -47,7 +47,19 @@
     width: 95%;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 530px) {
+    .artigos__lista {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .artigos__lista-itens--imagem {
+        object-fit: cover;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .artigos {
         padding: 5em 0 5em 0;
     }
@@ -70,7 +82,6 @@
     }
 
     .artigos__lista-itens--imagem {
-        object-fit: cover;
         height: 160px;
     }
 
