@@ -39,7 +39,6 @@
 
 @media screen and (min-width: 1440px) {
     .info {
-        z-index: -10;
         padding: 5em 0 5em 0;
     }
 

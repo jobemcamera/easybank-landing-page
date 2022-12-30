@@ -9,6 +9,31 @@
 }
 
 .banner__imagens {
+    display: inline-block;
+    text-align: center;
+    height: 22rem;
+}
+
+.banner__imagens::before {
+    content: "";
+    position: absolute;
+    top: -5rem;
+    right: 1;
+    width: 28rem;
+    height: 90rem;
+    background-image: url('../../img/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner__imagens img {
+    width: 100%;
+    height: 30rem;
+    transform: translateY(-8.5rem);
+}
+
+/*
+.banner__imagens {
     background-image: url('../../img/bg-intro-mobile.svg');
     background-repeat: no-repeat;
     background-position-y: -2.1rem;
@@ -20,11 +45,11 @@
 .banner__imagem {
     display: flex;
     height: 40rem;
-    object-fit:contain;
+    object-fit: contain;
     position: absolute;
     transform: translateY(-13.5rem);
     width: 100vw;
-}
+}*/
 
 .banner__info {
     display: flex;
@@ -61,26 +86,29 @@
     .banner {
         width: 80%;
         margin: 0 auto 0 auto;
+
     }
     
     .banner__container {
         flex-direction: row-reverse;
+        position: relative;
+        height: 35rem;
+        overflow: visible;
     }
 
     .banner__info {
         display: inline-block;
         text-align: left;
+        width: 38rem;
     }
 
     .banner__titulo {
         font-size: 2.5em;
-        width: 75%;
     }
 
     .banner__texto {
         padding: 2em 0 3em 0;
         text-align: left;
-        width: 75%;
     }
 
     .banner__botao-request {
@@ -88,19 +116,46 @@
         text-align: left;
     }
 
-    .banner__imagens {
+    .banner__imagens::before {
         background-image: url('../../img/bg-intro-desktop.svg');
-        transform: translateX(8rem);    
-        height: 35rem;          
-        background-position-y: -10.1rem;
-        scale: 1.2;
-        width: 100vw;
+        top: 10%;
+        right: -50%;
+        width: 50rem;
+        height: 50rem;
+        background-size: contain;        
+
+    }
+    .banner__imagens {
+        width: 100%;
+
     }
 
-    .banner__imagem {
+    .banner__imagens img {
+        position: absolute;
+        width: 40rem;
+        height: 55rem;
+        top: -10rem;
+        right: -12%;
+        transform: translateY(0);
+        object-fit: scale-down;
+    }
+    /*
+    .banner__imagens::before {
+        content: "";
+        display: inline-block;
+        background-image: url('../../img/bg-intro-desktop.svg');
+        transform: translateX(-1rem);    
+        height: 35rem;          
+        background-position-y: 1rem;
+        width: 80vw;
+    }
+
+    .banner__imagens {
         top: 27%;
-        left: 5%;
+        left: 4%;
         width: 100%;
         height: 52rem;
+        overflow: hidden;
     }
+    */
 }

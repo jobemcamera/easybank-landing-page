@@ -30,7 +30,7 @@
 }
 
 .rodape__links-lista {
-    padding: 1em 0;
+    padding: 1em 0 2em 0;
 }
 
 .rodape__links-lista--itens {
@@ -52,7 +52,7 @@
 }
 
 .rodape__copyright {
-    padding-top: 2em;
+    padding-top: 3em;
     color: var(--azul-cinza);
     font-size: 16px;
 }
@@ -72,6 +72,10 @@
 
     .rodape__redes-lista--itens {
         padding: 2em 0.7em 0 0;
+    }
+
+    .rodape__links-lista {
+        padding: 1em 0 1em 0;
     }
 
     .rodape__links-lista--link {
