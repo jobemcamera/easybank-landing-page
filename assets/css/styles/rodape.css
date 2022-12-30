@@ -42,6 +42,10 @@
     color: var(--azul-cinza-claro);
 }
 
+.rodape__links-lista--link:hover {
+    color: var(--verde-limao);
+}
+
 .rodape__botao-request {
     background-image: var(--degrade);
     border-radius: 50px;
@@ -51,10 +55,18 @@
     text-decoration: none;
 }
 
+.rodape__botao-request:hover {
+    opacity: 0.7;
+}
+
 .rodape__copyright {
     padding-top: 3em;
     color: var(--azul-cinza);
     font-size: 16px;
+}
+
+.fa-brands:hover {
+    color: var(--verde-limao);
 }
 
 @media screen and (min-width: 1024px) {

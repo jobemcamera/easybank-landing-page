@@ -60,6 +60,10 @@
     text-decoration: none;
 }
 
+.banner__botao-request:hover {
+    opacity: 0.7;
+}
+
 @media screen and (min-width: 1024px) {
     .banner__container {
         width: 90%;

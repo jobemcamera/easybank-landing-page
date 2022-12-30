@@ -13,7 +13,12 @@
     --cinza-claro: hsl(0, 0%, 98%);
     --verde-limao: hsl(136, 65%, 51%);
     --fonte: "Public Sans";
-    --degrade: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    --degrade: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.sobreposicao {
+    opacity: 1;
+    z-index: -1;
 }
 
 body {
