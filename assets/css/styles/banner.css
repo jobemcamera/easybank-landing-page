@@ -1,38 +1,17 @@
+.banner {
+    background-color: var(--cinza-claro);
+}
+
 .banner__container {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 
-.banner__imagens {
-    display: inline-block;
-    text-align: center;
-    height: 22rem;
-}
-
-.banner__imagens::before {
-    content: "";
-    position: absolute;
-    top: -5rem;
-    right: 1;
-    width: 28rem;
-    height: 90rem;
-    background-image: url('../../img/bg-intro-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.banner__imagens img {
-    width: 100%;
-    height: 30rem;
-    transform: translateY(-8.5rem);
-}
-
-/*
 .banner__imagens {
     background-image: url('../../img/bg-intro-mobile.svg');
     background-repeat: no-repeat;
@@ -49,7 +28,7 @@
     position: absolute;
     transform: translateY(-13.5rem);
     width: 100vw;
-}*/
+}
 
 .banner__info {
     display: flex;
@@ -83,16 +62,12 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .banner {
-        width: 80%;
-        margin: 0 auto 0 auto;
-
-    }
-    
     .banner__container {
+        width: 90%;
+        margin: 0 10% 0 10%;
         flex-direction: row-reverse;
         position: relative;
-        height: 35rem;
+        z-index: 1;
         overflow: visible;
     }
 
@@ -100,6 +75,7 @@
         display: inline-block;
         text-align: left;
         width: 38rem;
+        padding:1rem 0;
     }
 
     .banner__titulo {
@@ -116,46 +92,20 @@
         text-align: left;
     }
 
-    .banner__imagens::before {
-        background-image: url('../../img/bg-intro-desktop.svg');
-        top: 10%;
-        right: -50%;
-        width: 50rem;
-        height: 50rem;
-        background-size: contain;        
-
-    }
     .banner__imagens {
+        background-image: url('../../img/bg-intro-desktop.svg');
+        display: block;
         width: 100%;
-
+        height: 40rem;
+        background-position: 17rem -12rem;
+        background-repeat: no-repeat; 
     }
-
-    .banner__imagens img {
+    
+    .banner__imagem {
         position: absolute;
-        width: 40rem;
+        width: 50%;
         height: 55rem;
-        top: -10rem;
-        right: -12%;
-        transform: translateY(0);
-        object-fit: scale-down;
+        top: 8rem;
+        right: 0;
     }
-    /*
-    .banner__imagens::before {
-        content: "";
-        display: inline-block;
-        background-image: url('../../img/bg-intro-desktop.svg');
-        transform: translateX(-1rem);    
-        height: 35rem;          
-        background-position-y: 1rem;
-        width: 80vw;
-    }
-
-    .banner__imagens {
-        top: 27%;
-        left: 4%;
-        width: 100%;
-        height: 52rem;
-        overflow: hidden;
-    }
-    */
 }
