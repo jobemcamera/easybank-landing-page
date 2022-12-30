@@ -48,7 +48,7 @@ Para a versão Mobile:
 
 Para a versão Desktop:
 
-```
+``` css
     .banner__imagens {
         background-image: url('../../img/bg-intro-desktop.svg');
         display: block;
@@ -69,7 +69,7 @@ Para a versão Desktop:
 
 Também aprendi a manipular bordas com linear-gradient para o hover dos links
 
-```
+``` css
     .lista-opcoes__link:hover {
         color: var(--azul-escuro);
     }
