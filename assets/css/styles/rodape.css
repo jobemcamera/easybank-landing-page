@@ -1,14 +1,17 @@
 .rodape {
+    background-color: var(--azul-escuro);
+}
+
+.rodape__container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 3em 0 2em 0;
-    background-color: var(--azul-escuro);
+    padding: 2em 0 2em 0;
     align-items: center;
 }
 
 .rodape__logo {
-    width: 30%;
+    width: 80%;
     background-color: var(--branco);
     padding: 0.5em;
 }
@@ -26,6 +29,10 @@
     font-size: 22px;
 }
 
+.rodape__links-lista {
+    padding: 1em 0;
+}
+
 .rodape__links-lista--itens {
     padding: 0.5em 0;
 }
@@ -40,7 +47,6 @@
     border-radius: 50px;
     color: var(--branco);
     font-size: 16px;
-    margin-top: 0.5em;
     padding: 1em 2em;
     text-decoration: none;
 }
@@ -49,4 +55,45 @@
     padding-top: 2em;
     color: var(--azul-cinza);
     font-size: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape__container {
+        flex-direction: row;
+        margin: 0 auto;
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .rodape__esquerdo {
+        text-align: left;
+    }
+
+    .rodape__redes-lista--itens {
+        padding: 2em 0.7em 0 0;
+    }
+
+    .rodape__links-lista--link {
+        font-size: 14px;
+    }
+
+    .rodape__links-lista--itens {
+        padding-right: 7em;
+    }
+
+    .rodape__links-lista {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: left;
+    }
+
+    .rodape__direito {
+        text-align: right;
+    }
+
+    .rodape__copyright {
+        padding-top: 4em;
+        font-size: 14px;
+    }
 }

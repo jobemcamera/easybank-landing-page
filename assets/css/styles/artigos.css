@@ -49,11 +49,11 @@
 
 @media screen and (min-width: 1440px) {
     .artigos {
-        padding: 5em;
+        padding: 5em 0 5em 0;
     }
     .artigos__container {
-        width: 86%;
         margin: 0 auto;
+        width: 80%;
     }
 
     .artigos__titulo-principal {
@@ -62,11 +62,11 @@
 
     .artigos__lista {
         display: flex;
-        padding-bottom: 1em;
+        padding: 2em 0;
     }
 
     .artigos__lista-itens {
-        margin: 2em 2em 2em 0;
+        margin: 1em 2em 1em 0;
     }
 
     .artigos__lista-itens--imagem {
@@ -82,11 +82,16 @@
         font-size: 10px;
     }
 
+    .artigos__lista-itens--titulo {
+        margin-bottom: 0;
+        padding: 0.5em 0;
+    }
+
     .artigos__lista-itens--texto {
         margin-bottom: 0;
         width: 100%;
         line-height: 18px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
 }

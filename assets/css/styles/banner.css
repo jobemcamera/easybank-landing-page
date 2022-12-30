@@ -58,14 +58,18 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .banner__container {
+    .banner {
+        width: 80%;
         margin: 0 auto 0 auto;
+    }
+    
+    .banner__container {
         flex-direction: row-reverse;
     }
 
     .banner__info {
+        display: inline-block;
         text-align: left;
-        padding-left: 7%;
     }
 
     .banner__titulo {
@@ -74,13 +78,14 @@
     }
 
     .banner__texto {
-        padding: 1em 0;
+        padding: 2em 0 3em 0;
         text-align: left;
         width: 75%;
     }
 
     .banner__botao-request {
-        margin-right: 45%
+        align-items: left;
+        text-align: left;
     }
 
     .banner__imagens {
